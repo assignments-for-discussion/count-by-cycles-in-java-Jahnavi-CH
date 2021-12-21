@@ -6,6 +6,11 @@ public class Main {
     public int mediumCount = 0;
     public int highCount = 0;
   };
+  
+  public static void main(String[] args) {
+    testBucketingByNumberOfCycles();
+    
+  }
 
  public static CountsByUsage countBatteriesByUsage(int[] cycles) {
     CountsByUsage counts = new CountsByUsage();
@@ -30,8 +35,4 @@ public class Main {
     System.out.println("Done counting :\n");
   }
 
-  public static void main(String[] args) {
-    testBucketingByNumberOfCycles();
-    
-  }
 }
