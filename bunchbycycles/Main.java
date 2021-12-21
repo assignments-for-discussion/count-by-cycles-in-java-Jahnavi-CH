@@ -7,7 +7,7 @@ public class Main {
     public int highCount = 0;
   };
 
-  static CountsByUsage countBatteriesByUsage(int[] cycles) {
+ public static CountsByUsage countBatteriesByUsage(int[] cycles) {
     CountsByUsage counts = new CountsByUsage();
     int i;
     for(i=0;i<cycles.length;i++){
@@ -21,7 +21,7 @@ public class Main {
     return counts;
   }
 
-  static void testBucketingByNumberOfCycles() {
+  public static void testBucketingByNumberOfCycles() {
     System.out.println("Counting batteries by usage cycles...\n");
     CountsByUsage counts = countBatteriesByUsage(new int[] {100, 300, 500, 600, 900, 1000});
     assert(counts.lowCount == 1);
