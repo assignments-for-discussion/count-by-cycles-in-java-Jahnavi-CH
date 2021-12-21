@@ -27,7 +27,7 @@ public class Main {
     assert(counts.lowCount == 1);
     assert(counts.mediumCount == 3);
     assert(counts.highCount == 2);
-    System.out.println("Done counting :)\n");
+    System.out.println("Done counting :\n");
   }
 
   public static void main(String[] args) {
